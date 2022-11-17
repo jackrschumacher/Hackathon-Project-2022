@@ -7,11 +7,16 @@
   * Get Diseases
     * Cholera
     * Dipthera
+    * Disentary
 * Hunt for Food
 * Rest
+* rations
 * Charachter Customization
   * Skin Tone
+  * Hair
   * Acessories
+    * Glasses
+    * 
 * Set up user interface
 * SET UP STORY
   * Where do you start
@@ -19,3 +24,5 @@
   * Money?
   * Buy things
   * Job
+* Quality Of Life
+  * Number of attempts
