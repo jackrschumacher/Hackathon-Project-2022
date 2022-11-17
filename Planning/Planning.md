@@ -1,4 +1,5 @@
-### Planning
+# Planning
+https://github.com/jackrschumacher11/Hackathon-Project-2022
 
 * Create a new file with Traveling Class
 * Random Actions
@@ -11,6 +12,7 @@
 * Hunt for Food
 * Rest
 * rations
+* random location, (500,1000) miles
 * Charachter Customization
   * Skin Tone
   * Hair
@@ -26,3 +28,5 @@
   * Job
 * Quality Of Life
   * Number of attempts
+  * '=' for seperating
+  * Time (increments by hour)
