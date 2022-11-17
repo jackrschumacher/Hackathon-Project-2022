@@ -24,9 +24,15 @@ class BuyGoods {
       
       int choice = System.in.nextLine();
       if(choice == 1){
-        System.out.println("You have chosen to buy flour");
-
-        int amo
+        System.out.println("You have chosen to buy flour. How much flour would you like?");
+        int amount = System.in.nextLine();
+        System.out.println("You have chosen to buy:"+ amount + "Dollars worth of flour");
+      if(choice == 2){
+        System.out.println("You have chosen to buy cookies. How much would you like?");
+        int amount = System.in.nextLine();
+        System.out.println("You have chosen to buy:"+ amount + "Dollars worth of flour");
+      }
+        
       } 
     } 
   }
