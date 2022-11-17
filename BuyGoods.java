@@ -2,12 +2,19 @@ import java.util.*;
 
 class BuyGoods {
   public static void BuyGoods(){
-    double javaCoin = 10000;
+    Scanner input = new Scanner(System.in);
+    int javaCoin = 10000;
     String items = "Items to Buy" + 
-      "1.Food"+ 
-      "2.Horses"+
-      "3.Wagon"+
-      "4.Spare Parts";
+      "1.Food\n"+ 
+      "2.Horses\n"+
+      "3.Wagon\n"+
+      "4.Spare Parts\n"+
+      "5.Water";
+    System.out.println(items);
+      int choice = System.in.nextLine();
+      if (choice == 1){
+        system.out.println("")
+      }
       
   }
 }

@@ -1,7 +1,7 @@
 import java.util.*;
 
-class Traveling {
+class Traveling{
   public static void taveling(){
-
+    int random = Math.Random() ;
   }
 }
