@@ -5,8 +5,6 @@ class Main {
     Scanner input = new Scanner(System.in);
     System.out.println("The Java Trail");
 
-
-
   }
 }
 
@@ -31,102 +29,94 @@ public static void backgroundStory(){
 
 
 public static void BuyGoods(){
-    Scanner input = new Scanner(System.in);
-    int javaCoin = 10000;
+  Scanner input = new Scanner(System.in);
+  int javaCoin = 10000;
     
-    String items = "Items to Buy" + 
-      "1.Food\n"+ 
-      "2.Horses\n"+
-      "3.Wagon\n"+
-      "4.Spare Parts\n"+
-      "5.Water";
-    System.out.println(items);
+  String items = "Items to Buy" + 
+    "1.Food\n"+ 
+    "2.Horses\n"+
+    "3.Wagon\n"+
+    "4.Spare Parts\n"+
+    "5.Water";
+  System.out.println(items);
     
-    int choice = System.in.nextLine();
-    if (choice == 1){
-      System.out.println("You have chosen To buy Food. What kind of food do you want to buy?");
-      String foodItems = "1. Flour"+
-        "Cookies"+
-        "Java Beans"+
-        "Meat";
-      System.out.println(foodItems);
+  int choice = System.in.nextLine();
+  if (choice == 1){
+    System.out.println("You have chosen To buy Food. What kind of food do you want to buy?");
+    String foodItems = "1. Flour"+
+      "Cookies"+
+      "Java Beans"+
+      "Meat";
+    System.out.println(foodItems);
       
-      int choice = System.in.nextLine();
-      if(choice == 1){
-        System.out.println("You have chosen to buy flour. How much flour would you like?");
-        int amount = System.in.nextLine();
-        System.out.println("You have chosen to buy:"+ amount + "javaCoin worth of Flour");
-      if(choice == 2){
-        System.out.println("You have chosen to buy cookies. How much would you like?");
-        int amount = System.in.nextLine();
-        System.out.println("You have chosen to buy:"+ amount + "javaCoin worth of cookies");
-      }
-      if(choice == 3){
-        System.out.println("You have chosen to buy Java Beans");
-        int amount = System.in.nextLine();
+    int choice1 = System.input.nextLine();
+    int amount = 0;
+    if(choice1 == 1){
+      System.out.println("You have chosen to buy flour. How much flour would you like?");
+      amount = System.input.nextLine();
+      System.out.println("You have chosen to buy:"+ amount + "javaCoin worth of Flour");
+    }
+    if(choice1 == 2){
+      System.out.println("You have chosen to buy cookies. How much would you like?");
+      amount = System.input.nextLine();
+      System.out.println("You have chosen to buy:"+ amount + "javaCoin worth of cookies");
+    }
+    if(choice1 == 3){
+      System.out.println("You have chosen to buy Java Beans");
+      amount = System.input.nextLine();
         System.out.println("You have chosen to buy:"+ amount + "JavaCoin worth of Java Beans");
       }
-        
-        
-      } 
-    } 
-  }
-}
-public static void Traveling(){
-  import java.util.*;
-
-class Traveling {
-  public static void taveling(){
-    Scanner input = new Scanner(System.in);
-    
-    int randomEvent = (int)(Math.random() * 10);
-    
-    if(randomEvent = 1){
-      System.out.println("Oh No! You got Dysentery! Would you like to use a caster oil?");
-      String grossIncome = input.nextDouble();
-      if()
+      if(choice1 ==4){
+        System.out.println("You have chosen to buy Meat");
+        amount = System.in.nextLine();
+        System.out.println("You have chosen to buy:"+ amount + "JavaCoin worth of Meat");
     }
+        
+        
+  } 
+} 
+
+
+public static void traveling(){
+  Scanner input = new Scanner(System.in);
+  int randomEvent = 0;
+  randomEvent = (int)(Math.random() * 10);
     
-    if(randomEvent = 2){
+  if(randomEvent == 1){
+      System.out.println("Oh No! You got Dysentery! Would you like to use a caster oil?");
+      String decision1 = input.nextString();
+    }
+    if(randomEvent == 2){
       System.out.println("Event 2");
     }
-    
-    if(randomEvent = 3){
+    if(randomEvent == 3){
       System.out.println("Event 3");
     }
-    
-    if(randomEvent = 4){
+    if(randomEvent == 4){
       System.out.println("Event 4");
     }
     
-    if(randomEvent = 5){
+    if(randomEvent == 5){
       System.out.println("Event 5");
     }
-    
-    if(randomEvent = 6){
+    if(randomEvent == 6){
       System.out.println("Event 6");
     }
-    
-    if(randomEvent = 7){
+    if(randomEvent == 7){
       System.out.println("Event 7");
     }
-    
-    if(randomEvent = 8){
+    if(randomEvent == 8){
       System.out.println("Event 8");
     }
-    
-    if(randomEvent = 9){
+    if(randomEvent == 9){
       System.out.println("Event 9");
     }
-    
-    if(randomEvent = 10){
+    if(randomEvent == 10){
       System.out.println("Event 10");
-    }
-    
+    } 
   }
 }
-}
-}
+
 
 /*
  * Reference Code:
